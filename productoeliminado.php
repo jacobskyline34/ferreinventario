@@ -20,12 +20,12 @@ or die ("ERROR conexion");
 
 $clave = $_POST['codigo'];
 
-mysqli_query($conexion, "DELETE from tb_proveedores where id_Proveedores= '$clave'")
+mysqli_query($conexion, "DELETE from tb_productos where idtb_poductos= '$clave', tb_Proveedores_id_Proveedores ='$clave'")
 	
-or die("<br><h1>ERROR::El proveedor no se pudo eliminar, ya que sus producto esta registrados con su Codigo</h1>");
+or die("<br><h1>ERROR::</h1>");
 
 mysqli_close($conexion);
-echo "<p>Eliminado con exito <a href='eliminarprov.php'><h2>Volver</h2></a></p>";
+echo "<p>Eliminado con exito <a href='eliminarproducto.php'><h2>Volver</h2></a></p>";
 
 
 

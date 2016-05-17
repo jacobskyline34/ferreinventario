@@ -92,8 +92,13 @@
 		</u1>
 	</div>
   </nav>
+
+
+   </div>
  </section>
-    
+
+
+   
     <footer>
     	<div id="pie">&copy; Derechos Reservados</div>
     </footer>

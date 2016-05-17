@@ -94,8 +94,11 @@
 		    <li><a href="usuarios.php">Usuarios</a></li><br>
 		 
 		</u1>
-	
+	</div>
   </nav>
+
+</div>
+  
     </section>
     
     <footer>

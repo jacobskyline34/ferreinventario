@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<<html>
+<html>
 <head>
 	<title>FERRETERIA BANUS</title>
 	<meta charset="utf-8" />
@@ -72,7 +72,7 @@
 	<td width="104"><input type="number" name="idproveedor" required /></td> </tr>
 	
 
-</h2>
+
 	
 
 </table>
@@ -102,6 +102,9 @@
 		</u1>
 	
   </nav>
+
+</div>
+  
     </section>
     
     <footer>

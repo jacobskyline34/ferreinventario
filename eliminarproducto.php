@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<<html>
+<html>
 <head>
 	<title>FERRETERIA BANUS</title>
 	<meta charset="utf-8" />
@@ -8,16 +8,16 @@
 <body>
 
 				<header><h1>Ferreteria Banus</h1></header>
-                <header><h2>Agregar proveedor</h2></header>
+                <header><h2>Productos</h2></header>
 
-
+<section>
+<article>
 <header>
 	   <div id="cabecera">
 		
 			
 			<ul>
-				
-				<li><a href="agregarproveedor.php">Agregar</a></li>	
+				<li><a href="agregarproducto.php">Agregar</a></li>		
 				<li><a href="">Editar</a></li>	
 					
 			</ul>
@@ -25,71 +25,73 @@
 		</div>
     </header>
 
-
-
 <section>
+	<article>
 
 
 
-<center><h1>Eliminar Proveedor</h1></center>
+
 
 
 <div id="contenido">
 
 
-
-<form action="eliminarproveedor.php" method="POST">
+<form action="productoeliminado.php" method="POST">
 <center>
-<input type="number" name="codigo">
-<input type="submit" value"eliminarprov" name"eliminar"></br>
+Clave: <input type="number" name="codigo">
+<input type="submit" value"eliminarproducto" name"eliminar"></br>
 
 
-<br><table>
+
+<table>
 	
-
-	
+	</thead>
+	<tbody>
 		
 	<div align='center'>  
    <table border='1' cellpadding='0' cellspacing='0' width='600' bgcolor='#0101DF' bordercolor='#FFFFFF'>    
     <tr>  
       <td width='150' style='font-weight: bold'>Codigo</td>  
-      <td width='150' style='font-weight: bold'>Proveedor</td>  
-      <td width='150' style='font-weight: bold'>Comentario</td> 
-     
+      <td width='150' style='font-weight: bold'>Nombre</td>  
+      <td width='150' style='font-weight: bold'>Comentario</td>   
+      <td width='150' style='font-weight: bold'>Costo</td>  
+      <td width='150' style='font-weight: bold'>Cantidad</td>  
+      <td width='150' style='font-weight: bold'>Nombre proveedor</td> 
+      <td width='150' style='font-weight: bold'>Id proveedor</td>
     </tr>  
+
 
 
 
 		<?php
 			require_once('conector.php');
 			
-			$query="SELECT * FROM tb_proveedores";
+			$query="SELECT * FROM tb_productos";
 			$consulta = mysql_query($query);
 			
 			while($fila = mysql_fetch_array($consulta)){
 				
 				echo "
-	<tr>
-	  <td width='150'>".$fila['id_Proveedores']."</td>  
-      <td width='150'>".$fila['nombre_tb_provedores']."</td>  
-      <td width='150'>".$fila['Comentarios']."</td> 
-        
-    </tr>
+	  <tr>
+	  <td width='50'>".$fila['idtb_productos']."</td>  
+      <td width='50'>".$fila['nombre_tb_producto']."</td>  
+      <td width='50'>".$fila['comentario_tb_producto']."</td>  
+      <td width='50'>".$fila['tb_costo']."</td>
+      <td width='50'>".$fila['tb_cantidad']."</td>
+      <td width='50'>".$fila['nombre_tb_provedor']."</td>
+      <td width='50'>".$fila['tb_Proveedores_id_Proveedores']."</td>
+      </tr>  
 
 
 
 				";
-			}
+			} 
 		?> 
-</div>
-</table>
 
 
-
-</center>
-
+</table> </div>
+</article>
 </form>
-</div>
 
 <div id="Informacion">
         		<h2 id="look">Sistema</h2>
@@ -102,18 +104,18 @@
 		    <li><a href="ventas.php">Ventas</a></li><br>
 		    <li><a href="usuarios.php">Usuarios</a></li><br>
 		 
-		 
 		</u1>
 	
   </nav>
-</div>
 
-</div>
+
+  </div></div>
     </section>
     
     <footer>
     	<div id="pie">&copy; Derechos Reservados</div>
     </footer>
+
 
 </body>
 </html>
