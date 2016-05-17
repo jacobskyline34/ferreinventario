@@ -28,7 +28,7 @@ if (isset($_POST["modificar"])) {
 }
 ?>
     <script type="text/javascript">
-            setTimeout("location.href = 'provedores.php';", 200);
+            setTimeout("location.href = 'proovedores.php';", 1500);
     </script>
 </body>
 </html>
