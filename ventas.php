@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<<html>
+<html>
 <head>
 	<title>FERRETERIA BANUS</title>
 	<meta charset="utf-8" />
@@ -16,9 +16,9 @@
 		
 			
 			<ul>
-				<li><a href="">Agregar</a></li>	
-				<li><a href="">Eliminar</a></li>	
-				<li><a href="">Editar</a></li>	
+				<li><a href="agregarventa.php">Agregar</a></li>	
+				<li><a href="">Anular</a></li>	
+				
 					
 			</ul>
 				
