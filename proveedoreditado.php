@@ -20,7 +20,7 @@ if (isset($_POST["modificar"])) {
 	$modificar="UPDATE tb_proveedores SET nombre='{$nombre}', Comentarios='{$comentario}', WHERE id_Proveedores='{$codigo}'";
     $res= mysql_query($modificar);
     if(!$res){
-        echo mysql_error()
+        echo mysql_error();
     };
 	/* echo "<p>Proveedor modificado con éxito <a href='proovedores.php'>Volver</a></p>";
 } else {
