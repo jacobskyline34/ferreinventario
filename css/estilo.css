@@ -1,0 +1,138 @@
+body{
+
+background:#F7FE2E;	
+color:white;
+
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+header{
+	text-align: center;
+	color: #0101DF;
+}
+
+#look{
+padding-left: 40px;
+color: #0101DF;
+
+}
+
+input, textarea {
+	padding: 10px 20px; 
+	border-radius: :5px;
+	border:1px solid #ccc;
+	width: 200px;
+
+}
+
+
+
+
+form fieldset, input, h1,h2, h4 {
+
+
+color:#0101DF;
+
+
+
+}
+
+#mensajes {
+font-family: verdana;
+color: #0101DF;
+
+}
+
+
+
+#cabecera a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+
+#cabecera li{
+	display: inline;
+	list-style: none;
+	background: #0101DF;
+	padding: 0 0.5em;
+	border-radius: 5px;
+}
+
+
+
+#cabecera li:hover{
+	background: #58ACFA
+}
+
+
+
+
+#contenido{
+	width: 1200px;
+	padding: 40px;
+	float: right;
+	border-right: 2.5px dotted #ccc;
+	font-family: verdana;
+	line-height: 2;
+	color: #FFFF00;
+
+}
+
+
+#Informacion {
+	width: 200px;
+	float: left;
+	padding-left: 10px;
+	margin-bottom: 100px;
+}
+
+
+#Informacion li{
+	list-style: none;
+	background: #0101DF;
+	padding: 0 0.5em;
+	border-radius: 5px;
+}
+#Informacion a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFF00;
+	line-height: 2.3;
+}
+#Informacion li:hover{
+	background: #58ACFA
+}
+
+#Informacion form{
+	position: absolute;
+	right: 5px;
+	top: 165px;
+}
+
+
+
+
+#pie{   /*parte de abajo */
+	position: fixed;
+	bottom: 0;
+	width: 800px;
+	height: 30px;
+	padding-top: 10px;
+	background: #0101DF;
+	color: #FFFF00;
+	left: 300px;
+	text-align: center;
+}
+
+
+
+
+	

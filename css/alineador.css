@@ -1,0 +1,50 @@
+body{
+
+background:#FFFF00;	
+color:white;
+
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+header{
+	text-align: center;
+	color: #0101DF;
+}
+
+#look{
+padding-left: 40px;
+color: #0101DF;
+
+}
+input, textarea {
+	padding: 10px 20px; 
+	border-radius: :5px;
+	border:1px solid #ccc;
+	width: 200px;
+
+}
+
+
+
+
+form fieldset {
+
+text-align: center;
+  display: block;
+  margin: .5em 0 0 0;
+}
+
+
+
+fieldset {
+
+text-align: center;
+  display: block;
+  margin: .5em 0 0 0;
+}
