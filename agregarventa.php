@@ -44,11 +44,11 @@
 	<table border="1">
 	<tr>
 	<td width="104">Codigo:</td>
-	<td width="104"><input type="number" name="codigo" required /></td>	</tr>
+	<td width="104"><input type="number" name="codigo" required/></td>	</tr>
 	
 <tr>	
 	<td width="104">Nombre:</td>
-	<td width="104"><input type="text" name="nombre" required /></td></tr> 
+	<td width="104"><input type="text" name="nombre" required/></td></tr>
 	
 	<tr>
 	<td width="104">Comentario:</td>
@@ -60,15 +60,15 @@
 	
 	<tr>
 	<td width="104">Cantidad:</td>
-	<td width="104"><input type="number" name="cantidad" required /></td> </tr>
+	<td width="104"><input type="number" name="cantidad" required/></td> </tr>
 	
 	<tr>
 	<td width="104">Proveedor:</td>
-	<td width="104"><input type="Text" name="proveedor" required /></td></tr>
+	<td width="104"><input type="Text" name="proveedor" required/></td></tr>
 	
 	<tr>
 	<td width="104">Codigo de proveedor:</td>
-	<td width="104"><input type="number" name="idproveedor" required /></td> </tr>
+	<td width="104"><input type="number" name="idproveedor" required/></td> </tr>
 	
 
 
@@ -77,13 +77,7 @@
 </table>
 <br>
 	<input type="submit" name="registrado" value="Registrar" />
-	</fieldset>
-</center>
 
-
-
-</form>
-</div>
 
 
 <div id="Informacion">
